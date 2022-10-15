@@ -201,9 +201,10 @@ body.dark-theme {
     right: 0;
     bottom: -60%;
     margin: 0 auto;
-    border-color: var(--body-color);
+    background-color: var(--body-color);
     box-shadow: 0 4px 20px hsla(207, 24%, 35%, 0.1);
     padding: 2rem 1.5rem 5rem;
+    border-radius: 2rem;
     transition: bottom 0.3s;
   }
 }
